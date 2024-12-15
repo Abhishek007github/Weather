@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="download (1).png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="inner">
+            <div class="top-search">
+                <input type="text" name="" id="city" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass" id="icon"></i>
+            </div>
+
+            <div class="error">
+                <h2>Unable to find your city</h2>
+                <img src="no result.png" alt="">
+            </div>
+            <div class="bottom">
+                <div class="out-val">
+                    <img class="weather-icon">
+                    <span class="ctemp"></span>
+                    <span class="city"></span>
+                </div>
+
+                <div class="hum">
+                    <div class="humidity">
+                        <i class="fa-solid fa-water"></i>
+                        <div class="flex">
+                            <span class="child-1">
+                            </span>
+                            <span>humidity</span>
+                        </div>
+                    </div>
+                    <div class="wind">
+                        <i class="fa-solid fa-wind"></i>
+                        <div class="flex">
+                            <span class="child-2">
+                            </span>
+                            <span>Wind</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
